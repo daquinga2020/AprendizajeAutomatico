@@ -1,0 +1,22 @@
+Modelo 1: cnn_2breed_dogs_3conv_50epch -> Toy terrier y golden retriever
+Average Test Loss: 0.1963
+Average Test Accuracy: 93.88%
+Error: 6.12%
+
+Modelo 2: models/cnn_3breed_dogs_3conv_50epch.pth -> Toy terrier, golden retriever, Staffordshire_bullterrier
+Average Test Loss: 0.7564
+Average Test Accuracy: 72.22%
+Error: 27.78%
+
+Modelo 3: models/cnn_9cars_3conv_50epch.pth -> octavia', 'hyundai tucson', 'seat_ibiza', 'hyundai_i10', 'chevroulet_aveo', 'toyota_corolla', 'chevrolet_spark', 'polo', 'logan'
+Average Test Loss: 1.5065
+Average Test Accuracy: 68.60%
+Error: 31.40%
+
+Modelo 4: models/cnn_9bcars_3conv_50epch.pth -> 'octavia', 'nemo_citroen', 'hyundai tucson', 'seat_ibiza', 'hyundai_i10', 'toyota_corolla', 'chevrolet_spark', 'sandero', 'logan'
+Average Test Loss: 1.6580
+Average Test Accuracy: 69.46%
+Error: 30.54%
+
+Modelo 5: models/cnn_pkmns_3conv_50epch.pth ->
+
